@@ -1,0 +1,23 @@
+<html>
+<body>
+<script>
+    let person = {
+        Name: "Ashu",
+        Age: 20,
+        City: "Hyderabad"
+    };
+    document.write("<h3>Using for...in</h3>");
+    for (let key in person) {
+        document.write(key + " : " + person[key] + "<br>");
+    }
+    document.write("<h3>Using forEach</h3>");
+    Object.entries(person).forEach(([key, value]) => {
+        document.write(key + " : " + value + "<br>");
+    });
+    document.write("<h3>Using for...of</h3>");
+    for (let [key, value] of Object.entries(person)) {
+        document.write(key + " : " + value + "<br>");
+    }
+</script>
+</body>
+</html>

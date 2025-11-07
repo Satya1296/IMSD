@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <h3>Regular Expression Methods with User Input</h3>
+    <script>
+      let regex = /hello/gi;
+      var str = "Hello hello";
+      document.write("global: " + regex.global + "<br>");
+      document.write("test: " + regex.test(str) + "<br>");
+      document.write("exec: " + regex.exec(str) + "<br>");
+      document.write("toString: " + regex.toString() + "<br>");
+      document.write("source: " + regex.source + "<br>");      
+      document.write("ignoreCase: " + regex.ignoreCase + "<br>"); 
+      document.write("str.match(regex): " + str.match(regex) + "<br>"); 
+    </script>
+  </body>
+</html>

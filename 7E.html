@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <h3>Date Methods with User Input</h3>
+    <script>
+      var input = prompt("Enter a date in YYYY-MM-DD format:");
+      var date = new Date(input);
+      document.write("You entered: " + date + "<br><br>");
+      document.write("1. getFullYear(): " + date.getFullYear() + "<br>");
+      document.write("2. getMonth(): " + (date.getMonth()+1) + " (Months start from 0)" + "<br>");
+      document.write("3. getDate(): " + date.getDate() + "<br>");
+      document.write("4. getDay(): " + date.getDay() + " (0=Sunday, 6=Saturday)" + "<br>");
+      document.write("5. getHours(): " + date.getHours() + "<br>");
+      document.write("6. getMinutes(): " + date.getMinutes() + "<br>");
+      document.write("7. getSeconds(): " + date.getSeconds() + "<br>");
+      document.write("8. getMilliseconds(): " + date.getMilliseconds() + "<br>");
+      document.write("9. getTime(): " + date.getTime() + " (ms since Jan 1, 1970)" + "<br>");
+      document.write("10. toDateString(): " + date.toDateString() + "<br>");
+      document.write("11. toTimeString(): " + date.toTimeString() + "<br>");
+      document.write("12. toISOString(): " + date.toISOString() + "<br>");
+      document.write("13. toLocaleDateString(): " + date.toLocaleDateString() + "<br>");
+      document.write("14. toLocaleTimeString(): " + date.toLocaleTimeString() + "<br>");
+      document.write("15. setFullYear(2030): " + new Date(date.setFullYear(2030)) + "<br>");
+    </script>
+  </body>
+</html>
