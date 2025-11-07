@@ -1,0 +1,65 @@
+<html>
+    <body> 
+<center>  
+<table>
+<form>
+<tr>
+    <td>Username</td>
+    <td><input type = "text"/></td>
+</tr>
+<tr>
+    <td>Pasword</td>
+    <td><input type = "password"/></td>
+</tr>
+<tr>
+    <td>Phone Number</td>
+    <td><input type = "text"/></td>
+</tr>
+<tr>
+    <td colspan=2>
+          Day:<select><option>sun</option>
+<option>mon</option>
+<option>tue</option>
+<option>wed</option>
+<option>thu</option>
+<option>fri</option>
+<option>sat</option>
+</select>
+Month:<select><option>Jan</option>
+<option>Feb</option>
+<option>Mar</option>
+<option>Apr</option>
+<option>May</option>
+<option>june</option>
+<option>july</option>
+<option>aug</option>
+<option>sept</option>
+<option>oct</option>
+<option>nov</option>
+<option>dec</option>
+</select>
+Year:<select><option>2020</option>
+<option>2021</option>
+<option>2022</option>
+<option>2023</option>
+<option>2024</option>
+</select>
+<tr>
+<td colspan=2><input type="checkbox">Chess</input>
+<input type="checkbox">Badminton</input>
+</td>
+</tr>
+<tr>
+<td colspan=2><input type="radio" name = "Gender" > Male</input>
+<input type="radio" name = "Gender"> Female</input>
+</td>
+</tr>
+<tr>
+   <td><input type = "submit" value = "Submit"/></td>
+   <td><input type = "Reset"  value = "Reset"/></td>
+</tr>
+</form>
+</table>
+</center>
+</body>
+</html>
