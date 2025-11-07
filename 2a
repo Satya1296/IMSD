@@ -1,0 +1,76 @@
+<html>
+<body>
+    <table border = 2>
+        <tr>
+             <th>S.NO</th>
+             <th>Name</th>
+             <th>roll</th>
+        </tr>
+        <tr>
+             <td>1</td>
+             <td>sushma</td>
+             <td>108</td>
+        </tr>
+        <tr>
+           <td>2</td>
+           <td>poojitha</td>
+           <td>329</td>
+         </tr>
+        <tr>
+            <td>3</td>
+            <td>swetha</td>
+            <td>328</td>
+         </tr>
+    </table>
+
+
+    <table border = 2>
+        <tr>
+             <th>S.NO</th>
+             <th>Name</th>
+             <th>roll</th>
+        </tr>
+        <tr>
+             <td>1</td>
+             <td>sushma</td>
+             <td>108</td>
+        </tr>
+        <tr>
+           <td colspan = 2>2</td>
+           <td>329</td>
+         </tr>
+        <tr>
+            <td>3</td>
+            <td>swetha</td>
+            <td>328</td>
+         </tr>
+    </table>
+
+     <table border = 2>
+        <tr>
+             <th>S.NO</th>
+             <th>Name</th>
+             <th>roll</th>
+        </tr>
+        <tr>
+             <td>1</td>
+             <td>sushma</td>
+             <td>108</td>
+        </tr>
+        <tr>
+           <td rowspan =2>2</td>
+           <td>poojitha</td>
+           <td>329</td>
+         </tr>
+        <tr>
+            
+            <td>swetha</td>
+            <td>328</td>
+         </tr>
+    </table>
+
+
+</body>
+</html>
+
+     
