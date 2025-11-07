@@ -1,0 +1,45 @@
+<html>
+<body>
+     <caption>Time Table</caption>
+    <table border = 2>
+<tr>
+          <td>day\time</td>
+          <td>9.30-10.20</td>
+          <td>10.20-11.10</td>
+          <td>11.10-12.00</td>
+          <td>12.00-1.00</td>
+          <td>1.00-2.00</td>
+          <td>2.00-2.50</td>
+         
+</tr>
+<tr>
+        <td>MON</td>
+        <td colspan=2>DMS</td>
+        <td>TOC</td>
+        <td>BREAK</td>
+        <td>DAP</td>
+        <td>ASE</td>
+</tr>
+<tr> 
+         <td>TUE</td>
+        <td rowspan=2>DS</td>
+        <td>EA</td>
+        <td>TC</td>
+        <td>BREAK</td>
+        <td>DP</td>
+        <td>AE</td>
+</tr>
+<tr>
+        <td>WED</td>
+        <td>PPSU</td>
+        
+        <td>TO</td>
+        <td>BREAK</td>
+        <td>DA</td>
+        <td>AS</td>
+</tr> 
+</table>
+</body>
+</head>
+        
+         
